@@ -52,7 +52,29 @@ Hooks.on("setup", () => {
             3
         ]
     }
+    config.subspecies.human["Nordlander-nom"] = {
+        name : "Nordlander",
+        skills : [
+            "Animal Care",
+            "Cool",
+            "Evaluate",
+            "Gossip",
+            "Haggle",
+            "Intimidate",
+            "Language (Wastelander)",
+            "Leadership",
+            "Lore (Middenland)",
+            "Melee (Basic)",
+            "Outdoor Survival",
+            "Ranged (Bow)",
 
+        ],
+         talents : [
+            "Doomed, @Table[talents]{Additional Random Talent}",
+            "Menacing, Warrior Born",
+            3
+        ]
+    }
     config.subspecies.human["ostermarker-nom"] = {
         name : "Ostermarker",
         skills : [
